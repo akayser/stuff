@@ -11,9 +11,10 @@ echo "brew upgrade complete"
 #BREW_PREFIX=$(brew --prefix)
 
 echo "Intalling packages"
+brew install maven
+brew install telnet
 brew install wget
 brew install curl
-
 brew install git
 
 #Remove comments for needed apps.
