@@ -36,7 +36,6 @@ brew install git
 # brew cask install firefoxnightly
 # brew cask install webkit-nightly
 # brew cask install chromium
-# brew cask install torbrowser
 
 echo "Package install complete."
 
@@ -44,4 +43,4 @@ echo "cleanup brew"
 # Remove outdated versions from the cellar.
 brew cleanup
 
-echo "Cleanup complte.  Script complete"
+echo "Cleanup complete.  Script complete"
